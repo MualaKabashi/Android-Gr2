@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android-Gr2</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+</resources>
