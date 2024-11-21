@@ -29,35 +29,33 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="AC"
-                android:textAlignment="center"
-                android:padding="10dp"/>
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="+/-"
-                android:textAlignment="center"
-                android:padding="10dp"
-                />
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="%"
-                android:textAlignment="center"
-                android:padding="10dp"/>
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="/"
-                android:textAlignment="center"
-                android:padding="10dp"
-                />
+                android:textAlignment="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,35 +68,33 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="7"
-                android:textAlignment="center"
-                android:padding="10dp"/>
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="8"
-                android:textAlignment="center"
-                android:padding="10dp"
-                />
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="9"
-                android:textAlignment="center"
-                android:padding="10dp"/>
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="*"
-                android:textAlignment="center"
-                android:padding="10dp"
-                />
+                android:textAlignment="center" />
         </LinearLayout>
 
 
@@ -112,35 +108,33 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="4"
-                android:textAlignment="center"
-                android:padding="10dp"/>
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="5"
-                android:textAlignment="center"
-                android:padding="10dp"
-                />
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="6"
-                android:textAlignment="center"
-                android:padding="10dp"/>
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:text="-"
-                android:textAlignment="center"
                 android:padding="10dp"
-                />
+                android:text="-"
+                android:textAlignment="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -150,38 +144,37 @@
             android:weightSum="4">
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn1"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="1"
-                android:textAlignment="center"
-                android:padding="10dp"/>
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="2"
-                android:textAlignment="center"
-                android:padding="10dp"
-                />
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:padding="10dp"
                 android:text="3"
-                android:textAlignment="center"
-                android:padding="10dp"/>
+                android:textAlignment="center" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:text="+"
-                android:textAlignment="center"
                 android:padding="10dp"
-                />
+                android:text="+"
+                android:textAlignment="center" />
         </LinearLayout>
 
 
@@ -195,27 +188,26 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="2"
-                android:text="0"
-                android:textAlignment="center"
-                android:padding="10dp"/>
-
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="."
-                android:textAlignment="center"
-                android:padding="10dp"/>
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="="
-                android:textAlignment="center"
                 android:padding="10dp"
-                />
+                android:text="0"
+                android:textAlignment="center" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="."
+                android:textAlignment="center" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="="
+                android:textAlignment="center" />
         </LinearLayout>
 
     </LinearLayout>
