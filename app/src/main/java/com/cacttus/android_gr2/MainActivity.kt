@@ -40,10 +40,9 @@ class MainActivity : ComponentActivity() {
 
         login.setOnClickListener {
             if (username.text.toString().isEmpty() && password.text.toString()
-                    .isEmpty() && validatePassword(password.text.toString())
+                    .isEmpty() && !validatePassword(password.text.toString())
             ) {
                 Toast.makeText(this, "Please enter your credentials!", Toast.LENGTH_LONG).show()
-
             } else {
                 Toast.makeText(this, "Logged in successfully!", Toast.LENGTH_LONG).show()
                 var intent = Intent(this@MainActivity, ProfileActivity::class.java)
