@@ -1,7 +1,9 @@
 package com.cacttus.android_gr2
 
 import android.app.AlertDialog
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -39,8 +41,17 @@ class MainActivity : ComponentActivity() {
 
 
         login.setOnClickListener {
-            if (username.text.toString().isEmpty() || password.text.toString().isEmpty()) {
+            if (username.text.toString().isNotEmpty() && password.text.toString().isNotEmpty() && validatePassword(password.text.toString())
+            ) {
                 Toast.makeText(this, "Please enter your credentials!", Toast.LENGTH_LONG).show()
+
+                Log.d("TAG", "onCreate: $this")
+
+
+                var intent = Intent(this@MainActivity, ProfileActivity::class.java);
+                intent.putExtra("username", username.text.toString())
+                startActivity(intent)
+
             } else {
                 Toast.makeText(this, "Logged in successfully!", Toast.LENGTH_LONG).show()
             }
@@ -90,6 +101,8 @@ class MainActivity : ComponentActivity() {
         login = findViewById(R.id.login)
         forgotPassword = findViewById(R.id.forgotPassword)
     }
+
+    fun validatePassword(input: String): Boolean = input.length >= 8 && input[0].isUpperCase()
 
 
 }
